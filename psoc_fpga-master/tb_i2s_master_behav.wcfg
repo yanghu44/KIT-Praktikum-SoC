@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_i2s_master_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_i2s_master" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="21560000001fs"></ZoomEndTime>
+      <Cursor1Time time="16498070000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject type="logic" fp_name="/tb_i2s_master/clk_soc">
+      <obj_property name="ElementShortName">clk_soc</obj_property>
+      <obj_property name="ObjectShortName">clk_soc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_i2s_master/ac_mclk">
+      <obj_property name="ElementShortName">ac_mclk</obj_property>
+      <obj_property name="ObjectShortName">ac_mclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_i2s_master/bclk">
+      <obj_property name="ElementShortName">bclk</obj_property>
+      <obj_property name="ObjectShortName">bclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_i2s_master/full">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_i2s_master/lrclk">
+      <obj_property name="ElementShortName">lrclk</obj_property>
+      <obj_property name="ObjectShortName">lrclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_i2s_master/sdata">
+      <obj_property name="ElementShortName">sdata</obj_property>
+      <obj_property name="ObjectShortName">sdata</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_i2s_master/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_i2s_master/write_frame">
+      <obj_property name="ElementShortName">write_frame</obj_property>
+      <obj_property name="ObjectShortName">write_frame</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_i2s_master/frame_in_l">
+      <obj_property name="ElementShortName">frame_in_l[23:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_in_l[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_i2s_master/frame_in_r">
+      <obj_property name="ElementShortName">frame_in_r[23:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_in_r[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_i2s_master/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_i2s_master/uut/bclk">
+      <obj_property name="ElementShortName">bclk</obj_property>
+      <obj_property name="ObjectShortName">bclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_i2s_master/uut/lrclk">
+      <obj_property name="ElementShortName">lrclk</obj_property>
+      <obj_property name="ObjectShortName">lrclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_i2s_master/uut/sdata">
+      <obj_property name="ElementShortName">sdata</obj_property>
+      <obj_property name="ObjectShortName">sdata</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_i2s_master/uut/Bit_Counter">
+      <obj_property name="ElementShortName">Bit_Counter[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Bit_Counter[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_i2s_master/uut/clk_counter">
+      <obj_property name="ElementShortName">clk_counter[6:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_counter[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_i2s_master/uut/i2s_state">
+      <obj_property name="ElementShortName">i2s_state[0:0]</obj_property>
+      <obj_property name="ObjectShortName">i2s_state[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_i2s_master/uut/left_data">
+      <obj_property name="ElementShortName">left_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">left_data[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_i2s_master/uut/left_data_buffer">
+      <obj_property name="ElementShortName">left_data_buffer[23:0]</obj_property>
+      <obj_property name="ObjectShortName">left_data_buffer[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_i2s_master/uut/right_data">
+      <obj_property name="ElementShortName">right_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">right_data[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_i2s_master/uut/right_data_buffer">
+      <obj_property name="ElementShortName">right_data_buffer[23:0]</obj_property>
+      <obj_property name="ObjectShortName">right_data_buffer[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_i2s_master/uut/rd_en">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+</wave_config>
